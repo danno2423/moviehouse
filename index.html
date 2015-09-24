@@ -8,16 +8,18 @@
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Terminal+Dosis" />
+  <!-- Fonts -->
 
   <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 
   <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
 
+  <link href='https://fonts.googleapis.com/css?family=Arvo:700' rel='stylesheet' type='text/css'>
+
+  <!--Custom CSS-->
+
 	<link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <body>
 	<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
@@ -26,9 +28,9 @@
       <a class="navbar-brand href="#" style=color:#D6CFD2; font-family: Boxedin;">Moviehouse Productions</a>
     </div>
       <ul class="nav navbar-nav navbar-right style=#D6CFD2;">
-        <li><a href="#about">About</a></li>
-        <li><a href="#programs t-border">Programs</a></li>
-        <li><a href="#book">Book Rick!</a></li>
+        <li id='about_link'><a href="#about">About</a></li>
+        <li id='programs_link'><a href="#programs">Programs</a></li>
+        <li id='contact_link'><a href="#contact">Contact</a></li>
         </li>
       </ul>
   </div>
@@ -70,12 +72,12 @@
       <p style="font-family: 'Abolition Regular', Helvetica, Arial, sans-serif; color:black; ">
         - The Philadelpha Daily News
       </p>
-      <a class="callout" href="http://articles.philly.com/1995-11-20/news/25680407_1_slide-show-philadelphia-corporation-spector-works"><b>Read a Review<b></a>
+      <a class="callout" target="_blank" href="http://articles.philly.com/1995-11-20/news/25680407_1_slide-show-philadelphia-corporation-spector-works"><b>Read a Review<b></a>
 
     </div>
 
 
-    <div id='programs t-border'>
+    <div id='programs'>
 
       <h1>Programs</h1>
 
@@ -171,20 +173,27 @@
 
     <div id='container'>
 
-      <footer class='footer'>
+      <footer class='footer' id='contact'>
         <div class='container'>
           <p class='text-muted'>
-            Moviehouse Productions krypton1992@gmail.com
+            <ul>
+              <li>Moviehouse Productions</li>
+              <li>krypton1992@gmail.com</li>
+              <li>1230 Deer Run Ct Southampton, PA 18966</li>
           </p>
         </div>
       </footer>
 
     </div>
 
-    
+  
+   <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
+    <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-
+  <!-- Custom JavaScript -->
 	<script type="text/javascript" src= 'main.js' ></script>
 </body>
 </html>
