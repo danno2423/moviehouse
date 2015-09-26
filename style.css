@@ -1,3 +1,16 @@
+/*navbar */
+
+.navbar-brand {
+  font-size: 40px;
+  font-family: 'Indie Flower', cursive;
+  color: white;
+}
+
+.nav li {
+  font-size: 17px;
+  font-family: 'Terminal Dosis', Arial, sans-serif;
+}
+
 
 /*header*/
 
@@ -70,7 +83,7 @@
 }
 
 #about_text {
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'Slabo 27px', Helvetica, Arial, sans-serif;
   text-align: left;
 }
@@ -121,12 +134,13 @@
 
 
 .container img {
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
 }
 
 .container p {
   text-align: center;
+  font-size: 20px;
 }
 
 #programs_container {
